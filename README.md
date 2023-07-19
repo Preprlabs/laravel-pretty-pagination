@@ -4,7 +4,7 @@ This package adds the `paginate` route method to support pagination via custom r
 ## Install
 Via Composer
 ``` bash
-composer require Preprlabs/laravel-pretty-pagination
+composer require preprlabs/laravel-pretty-pagination
 ```
 
 First register the service provider and facade in your application.
@@ -227,6 +227,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Security
 
 If you discover any security related issues, please email hemarao@prepr.org instead of using the issue tracker.
+
+## Credits
+
+- [Sebastian De Deyne](https://github.com/sebastiandedeyne)
+- [All Contributors](../../contributors)
 
 ## License
 

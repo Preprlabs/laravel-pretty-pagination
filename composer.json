@@ -1,8 +1,8 @@
 {
-    "name": "Preprlabs/laravel-pretty-pagination",
+    "name": "preprlabs/laravel-pretty-pagination",
     "description": "Laravel SEO friendly pagination routing.",
     "keywords": [
-        "Preprlabs",
+        "preprlabs",
         "laravel-pretty-pagination",
         "SEO",
         "laravel",
@@ -15,7 +15,6 @@
         {
             "name": "Hemarao Dugana",
             "email": "hemarao@prepr.org",
-            "homepage": "https://www.preprlabs.org",
             "role": "Developer"
         }
     ],
