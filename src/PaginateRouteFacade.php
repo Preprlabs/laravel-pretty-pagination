@@ -1,6 +1,6 @@
 <?php
 
-namespace PreprlabsDev\PaginateRoute;
+namespace Preprlabs\PaginateRoute;
 
 use Illuminate\Support\Facades\Facade;
 

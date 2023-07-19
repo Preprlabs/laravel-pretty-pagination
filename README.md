@@ -4,7 +4,7 @@ This package adds the `paginate` route method to support pagination via custom r
 ## Install
 Via Composer
 ``` bash
-composer require PreprlabsDev/laravel-pretty-pagination
+composer require Preprlabs/laravel-pretty-pagination
 ```
 
 First register the service provider and facade in your application.
@@ -14,12 +14,12 @@ First register the service provider and facade in your application.
 
 'providers' => [
     ...
-    'PreprlabsDev\PaginateRoute\PaginateRouteServiceProvider',
+    'Preprlabs\PaginateRoute\PaginateRouteServiceProvider',
 ];
 
 'aliases' => [
     ...
-    'PaginateRoute' => 'PreprlabsDev\PaginateRoute\PaginateRouteFacade',
+    'PaginateRoute' => 'Preprlabs\PaginateRoute\PaginateRouteFacade',
 ];
 ```
 
@@ -28,7 +28,7 @@ Then register the macros in `App\Providers\RouteServiceProvider::boot()`.
 ```php
 // app/Providers/RouteServiceProvider.php
 
-use PreprlabsDev\PaginateRoute\PaginateRouteFacade as PaginateRoute;
+use Preprlabs\PaginateRoute\PaginateRouteFacade as PaginateRoute;
 
 // ...
 
@@ -66,7 +66,7 @@ public function index()
 If you want to customize or add translations for the "page" url segment, you can publish the language files.
 
 ``` bash
-php artisan vendor:publish --provider="PreprlabsDev\PaginateRoute\PaginateRouteServiceProvider"
+php artisan vendor:publish --provider="Preprlabs\PaginateRoute\PaginateRouteServiceProvider"
 ```
 
 ### Generating Url's

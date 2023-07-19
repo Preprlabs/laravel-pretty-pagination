@@ -1,15 +1,15 @@
 {
-    "name": "PreprlabsDev/laravel-pretty-pagination",
+    "name": "Preprlabs/laravel-pretty-pagination",
     "description": "Laravel SEO friendly pagination routing.",
     "keywords": [
-        "PreprlabsDev",
+        "Preprlabs",
         "laravel-pretty-pagination",
         "SEO",
         "laravel",
         "pagination",
         "routing"
     ],
-    "homepage": "https://github.com/PreprlabsDev/laravel-pretty-pagination",
+    "homepage": "https://github.com/Preprlabs/laravel-pretty-pagination",
     "license": "MIT",
     "authors": [
         {
@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PreprlabsDev\\PaginateRoute\\": "src"
+            "Preprlabs\\PaginateRoute\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PreprlabsDev\\PaginateRoute\\Test\\": "tests"
+            "Preprlabs\\PaginateRoute\\Test\\": "tests"
         }
     },
     "extra": {
@@ -47,10 +47,10 @@
         },
         "laravel": {
             "providers": [
-                "PreprlabsDev\\PaginateRoute\\PaginateRouteServiceProvider"
+                "Preprlabs\\PaginateRoute\\PaginateRouteServiceProvider"
             ],
             "aliases": {
-                "PaginateRoute": "PreprlabsDev\\PaginateRoute\\PaginateRouteFacade"
+                "PaginateRoute": "Preprlabs\\PaginateRoute\\PaginateRouteFacade"
             }
         }
     },
